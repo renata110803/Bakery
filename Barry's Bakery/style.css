@@ -1,0 +1,69 @@
+/*
+Gabdrakhmanova Renata
+*/
+html,body,h1,h2,h3,p{
+  padding:0;
+  border:0;
+  margin:0;
+}
+html {
+  background-color:gray;
+   background-image:url(images/background.jpg);
+   	background-attachment:fixed;
+    background-position:center;
+}
+h1{
+text-align: center;
+}
+table,tr,th,td{
+  border:thin solid #000;
+  border-collapse:collapse;
+
+}
+td,th{
+  text-align:center;
+padding:5px;
+  width:10%;
+}
+h2{
+width:500px;
+border:5px solid#61A5C2;
+padding:6px;
+margin:10px;
+}
+
+#logo{
+  position: fixed;
+right:1px;
+top:70%;
+}
+.border{
+  float:left;
+  border: 5px solid lightblue;
+  margin-right:100px;
+  box-shadow:  5px 5px blue;
+}
+.border2{
+  float:right;
+  border: 5px solid lightblue;
+  margin-right:100px;
+  box-shadow:  5px 5px blue;
+}
+.back{
+        background: rgba(211,211,211, 0.73);
+margin-left:200px;
+    width:1000px;
+    height: 1500px;
+font-size: 20px;
+}
+.about{
+  width:800px;
+  border:5px #468FAF;
+    border-style:dotted groove dotted;
+  padding:6px;
+  margin:10px;
+}
+p{
+font-size:15px;
+font-family:"Times New Roman", serif;
+}
